@@ -25,9 +25,17 @@ name = "libatasmart"
 version = "0.3.0"
 source = "git+https://github.com/EllisK-L/libatasmart?branch=smart_parse_attributes#8145a7d99119543cc4430a7695d9895dcd245c74"
 dependencies = [
- "libatasmart-sys",
+ "libatasmart-sys 0.1.2 (git+https://github.com/EllisK-L/libatasmart-sys?branch=parse_attributes)",
  "libffi",
  "nix",
+]
+
+[[package]]
+name = "libatasmart-sys"
+version = "0.1.2"
+source = "git+https://github.com/cholcombe973/libatasmart-sys.git?branch=master#5ef90fd82b8d57cb879bdc8992005996f4aaf2c2"
+dependencies = [
+ "libc",
 ]
 
 [[package]]
@@ -81,6 +89,7 @@ name = "smarttui"
 version = "0.1.0"
 dependencies = [
  "libatasmart",
+ "libatasmart-sys 0.1.2 (git+https://github.com/cholcombe973/libatasmart-sys.git?branch=master)",
 ]
 
 [[package]]

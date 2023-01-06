@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 libatasmart = { git = "https://github.com/EllisK-L/libatasmart", branch = "smart_parse_attributes" }
+libatasmart-sys = { git = "https://github.com/cholcombe973/libatasmart-sys.git", branch = "master"}
