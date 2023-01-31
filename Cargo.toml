@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-libatasmart = { git = "https://github.com/EllisK-L/libatasmart", branch = "smart_parse_attributes" }
+libatasmart = "0.3.1"
 libatasmart-sys = "0.2.0"
 cursive = "0.20.0"
 cursive-tabs = "^0"

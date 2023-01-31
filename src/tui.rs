@@ -1,5 +1,5 @@
-use cursive::{traits::*, CursiveRunnable};
-use cursive::views::{Dialog, DummyView, LinearLayout, TextView, Panel, Button};
+use cursive::{CursiveRunnable};
+use cursive::views::{LinearLayout, Panel, Button};
 
 use crate::utils::Drive;
 
