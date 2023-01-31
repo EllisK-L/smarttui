@@ -4,6 +4,8 @@ use cursive::views::{Dialog, DummyView, LinearLayout, TextView, Panel, Button};
 
 // This example uses a LinearLayout to stick multiple views next to each other.
 
+
+
 fn main() {
     let mut siv = cursive::default();
 
